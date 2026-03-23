@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "./Navbar.jsx"
 import Sidebar from './Sidebar.jsx'
-import Clothing from "../Clothing.jsx"
+import Clothing from "./Clothing.jsx"
 
 
 const HomePage = () => {
