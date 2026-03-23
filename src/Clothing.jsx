@@ -18,7 +18,6 @@ function Clothing() {
                             <div className="relative">
                                 <img
                                     src={item.img}
-                                    alt={item.title}
                                     className="w-full h-96 object-cover"
                                 />
                                 <span className="absolute top-2 left-2 text-sm text-gray-500 bg-white px-1">Sponsored</span>

@@ -26,17 +26,15 @@ const Sidebar = () => {
                     Filters
                 </div>
                 <div className="p-4 border-b">
-                    <h3 className="font-semibold text-xs mb-3">
-                        CATEGORIES
-                    </h3>
-                    <ul className="space-y-2 text-gray-500">
-                        <li className="flex items-center gap-1 cursor-pointer">
+                    <p className="font-semibold text-xs mb-3">CATEGORIES</p>
+                    <ul className="text-gray-500">
+                        <li className="flex cursor-pointer">
                             Clothing and Accessories
                         </li>
-                        <li className="flex items-center gap-1 cursor-pointer">
+                        <li className="flex cursor-pointer">
                             Sarees and Saree Essentials
                         </li>
-                        <li className="flex items-center gap-1 cursor-pointer">
+                        <li className="flex cursor-pointer">
                             Sarees
                         </li>
                         <li className="font-semibold text-black mt-2">
@@ -46,7 +44,7 @@ const Sidebar = () => {
                 </div>
 
                 {sections.map((item) => (
-                    <div key={item} className="flex items-center justify-between px-4 py-3 border-b cursor-pointer hover:bg-gray-50">
+                    <div key={item} className="flex px-4 py-3 border-b cursor-pointer hover:bg-gray-100">
                         <span className="font-semibold text-xs">{item}</span>
                     </div>
                 ))}
@@ -57,20 +55,21 @@ const Sidebar = () => {
                     </h3>
                     <input
                         type="range"
-                        className="w-full accent-blue-600"
+                        className="w-full"
                     />
-                    <div className="flex items-center justify-between mt-4">
-                        <select className="border px-2 py-1 text-sm rounded">
+                    <div className="flex justify-between mt-4">
+                        <select className="border-2 px-2 py-1 text-sm rounded">
                             <option>Min</option>
-                            <option>₹0</option>
-                            <option>₹500</option>
-                            <option>₹1000</option>
+                            <option>1000</option>
+                            <option>5000</option>
+                            <option>10000</option>
                         </select>
-                        <span className="text-gray-500">to</span>
-                        <select className="border px-2 py-1 text-sm rounded">
-                            <option>₹1500+</option>
-                            <option>₹2000+</option>
-                            <option>₹3000+</option>
+                        <span>to</span>
+                        <select className="border-2 px-2 py-1 text-sm rounded">
+                            <option>Max</option>
+                            <option>10000</option>
+                            <option>20000</option>
+                            <option>30000</option>
                         </select>
                     </div>
                 </div>
