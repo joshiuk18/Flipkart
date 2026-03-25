@@ -87,7 +87,7 @@ const Products = [
         price: 598,
         oldPrice: 1999,
         discount: "70% off",
-        img: "9.jpg",
+        img: "4.jpg",
     },
     {
         id: 2,
@@ -147,7 +147,7 @@ const Products = [
         price: 476,
         oldPrice: 3099,
         discount: "84% off",
-        img: "9.jpg",
+        img: "8.jpg",
     },
     {
         id: 4,
